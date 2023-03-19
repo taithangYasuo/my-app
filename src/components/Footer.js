@@ -1,26 +1,26 @@
-import {useStore, actions} from '../store'
-import {Link} from 'react-router-dom'
+import { useStore, actions } from '../store'
+import { Link } from 'react-router-dom'
 import fanpage from '../assets/images/fanpage.jpg'
 
 
 function Footer() {
     const [state, dispatch] = useStore()
-    const {isAdd} = state 
-    
+    const { isAdd } = state
+
     return (
         <div className='footer'>
             <div className='footer-email flex'>
                 <div className='flex'>
-                    <i className="fas fa-envelope-open-text"></i>   
+                    <i className="fas fa-envelope-open-text"></i>
                     <p>Đăng kí nhận tin</p>
                 </div>
                 <div className="footer-email-detail">
-                    <input type="text" placeholder="Nhập email của bạn"/>
+                    <input type="text" placeholder="Nhập email của bạn" />
                     <button className="btn">ĐĂNG KÍ</button>
                 </div>
                 <div className="flex">
                     <i className="fas fa-phone-square-alt"></i>
-                    <p>Hỗ trợ: <span>0981964486</span></p>
+                    <p>Hỗ trợ: <span>0964412716</span></p>
                 </div>
             </div>
             <div className="footer-main flex">

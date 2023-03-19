@@ -3,7 +3,7 @@ import { useMemo } from "react"
 import { useStore } from "../store"
 import CartSubProduct from "./CartSubProduct"
 
-function CartSub () {
+function CartSub() {
     const [state, dispatch] = useStore()
 
     const closeCart = () => {
@@ -15,7 +15,7 @@ function CartSub () {
     const total = useMemo(() => {
         const result = state.cart.reduce((pre, cur) => {
             return pre + cur.price * cur.quantity
-        }, 0) 
+        }, 0)
         return result
     }, [state])
 
@@ -26,7 +26,10 @@ function CartSub () {
                 <CartSubProduct />
                 <div className="flex cart-sub-total">
                     <p>TỔNG TIỀN:</p>
-                    <p>{total},000₫</p>
+                    <p> {
+                        new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(total + '000')
+                    }
+                    </p>
                 </div>
                 <div className="flex cart-sub-payload">
                     <Link to="/cart"><button onClick={closeCart} className="btn">XEM GIỎ HÀNG</button></Link>

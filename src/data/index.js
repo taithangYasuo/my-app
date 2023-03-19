@@ -7,7 +7,7 @@ export const sideBar = [
             { item: "Xoong, Nồi, Chảo", link: "xoong-noi" },
             { item: "Giá, Kệ Đa Năng", link: "phu-kien-bep" },
             { item: "Phụ Kiện Bếp", link: "phu-kien-bep-1" },
-            { item: "Thìa, Đũa", link: "thia-dua" },          
+            { item: "Thìa, Đũa", link: "thia-dua" },
         ],
         link: ""
     },
@@ -19,49 +19,49 @@ export const sideBar = [
     {
         name: "Cốc, Ly",
         group: [
-            {item: "Cốc", link: "coc"},
-            {item: "Ly", link: "ly"},
+            { item: "Cốc", link: "coc" },
+            { item: "Ly", link: "ly" },
         ],
         link: ""
     },
     {
         name: "Trà Chiều",
         group: [
-            {item: "Bộ Ấm Trà", link: "bo-am-tra"},
-            {item: "Trà Cụ", link: "tra-cu"},
-            {item: "Tea Party", link: "tea-party"},
+            { item: "Bộ Ấm Trà", link: "bo-am-tra" },
+            { item: "Trà Cụ", link: "tra-cu" },
+            { item: "Tea Party", link: "tea-party" },
         ],
         link: ""
     },
     {
         name: "Chăm Sóc Chúng Mình",
         group: [
-            {item: "Cafe Tỉnh Táo", link: "cafe-tinh-tao"},
-            {item: "Thư Giãn", link: "thu-gian"},
+            { item: "Cafe Tỉnh Táo", link: "cafe-tinh-tao" },
+            { item: "Thư Giãn", link: "thu-gian" },
         ],
         link: ""
     },
     {
         name: "Thiền Định An Yên",
         group: [
-            {item: "Trầm", link: "tram"},
-            {item: "Set Đốt Trầm", link: "set-dot-tram"},
+            { item: "Trầm", link: "tram" },
+            { item: "Set Đốt Trầm", link: "set-dot-tram" },
         ],
         link: ""
     },
     {
         name: "Mùi Hương",
         group: [
-            {item: "Nến Thơm", link: "nen-thom"},
-            {item: "Tinh Dầu, Túi Thơm", link: "tinh-dau-tui-thom"},
+            { item: "Nến Thơm", link: "nen-thom" },
+            { item: "Tinh Dầu, Túi Thơm", link: "tinh-dau-tui-thom" },
         ],
         link: ""
     },
     {
         name: "Trang Trí Nhà Cửa",
         group: [
-            {item: "Khăn Trải Bàn, Thảm", link: "khan-trai-ban-tham"},
-            {item: "Bình Cắm Hoa", link: "binh-cam-hoa"},
+            { item: "Khăn Trải Bàn, Thảm", link: "khan-trai-ban-tham" },
+            { item: "Bình Cắm Hoa", link: "binh-cam-hoa" },
         ],
         link: ""
     },
@@ -134,7 +134,7 @@ export const products = {
             name: "Giá Để Dao",
             price: 320,
             link: "gia-de-dao"
-        }, 
+        },
         {
             image: "https://product.hstatic.net/200000015764/product/4dc04a09-7cde-46d3-9a0b-c8a8e26acc1f_b781689852cf4addaf7e99e278574536_grande.jpg",
             name: "Giá đĩa 3 ngăn",
@@ -160,7 +160,7 @@ export const products = {
             link: "gio-cookies"
         }
     ],
-    "picnic-day" : [
+    "picnic-day": [
         {
             image: "https://product.hstatic.net/200000015764/product/104043828_247636563200136_8760368985925987794_n_5f873773c38c486a8735de9bcd4e900b_grande.jpg",
             name: "Khăn Trải Bàn Ren Tuyết",
@@ -173,17 +173,17 @@ export const products = {
             price: 780,
             link: "tham-picnic-hoa-tiet"
         }
-    ] 
+    ]
 }
 
 export const productDetail = {
-    "am-trang-men-do-2-4l" : {
+    "am-trang-men-do-2-4l": {
         name: "Ấm Tráng Men Đỏ 2,4L",
         SKU: "ATMD24",
         price: 760,
         description: "",
         group: "xoong-noi",
-        image: [   
+        image: [
             "https://product.hstatic.net/200000015764/product/z2273282269591_4a64b79d8a7fa6b90b6134350900cda5_4b77d6d22ae8448faa2555d31e09cd99_compact.jpg",
             "https://product.hstatic.net/200000015764/product/z2273282265941_a12fafffe01d7d8c68dff7197e052564_1e75938dc6984b2db484e5ae990a6463_compact.jpg",
             "https://product.hstatic.net/200000015764/product/z2273282266602_14e0bbaf2d4a3b60d28261b3d66ccb10_7b9b63d5faba41f483ad752e2b9877ed_compact.jpg",
@@ -203,7 +203,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/z2904524513678_42f0a554bc9624598db9349f6ee50e40_edb1a206d3ac4e60be405fd0811a626f_compact.jpg",
         ]
     },
-    "am-trang-men-meo-1-1l" : {
+    "am-trang-men-meo-1-1l": {
         name: "Ấm Tráng Men Mèo (1,1L)",
         SKU: "ATMM12",
         price: 680,
@@ -216,7 +216,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/z2904524510555_25cbd5e5bb8ab1db0a79cb9b0b4cf33b_0b6f7569a8de454391ea1e67be5e10ab_compact.jpg",
         ]
     },
-    "am-trang-men-mickey" : {
+    "am-trang-men-mickey": {
         name: "Ấm Tráng Men Mickey",
         SKU: "ATMMK11",
         price: 545,
@@ -229,7 +229,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/z2166339044159_026b9835729e2100b48b461fb1da520e_b415408f68ff4e47a3a40055c1fd3b12_compact.jpg",
         ]
     },
-    "am-picnic" : {
+    "am-picnic": {
         name: "Ấm Picnic",
         SKU: "APCN11",
         price: 370,
@@ -255,7 +255,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/z2413530312960_95810376b6e1d9232de16b9f926b85ad_6fc6864e6546447c830418af291252d5_compact.jpg",
         ]
     },
-    "khan-trai-ban-ren-tuyet" : {
+    "khan-trai-ban-ren-tuyet": {
         name: "Khăn Trải Bàn Ren Tuyết",
         SKU: "KTRT01",
         price: 195,
@@ -265,7 +265,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/104043828_247636563200136_8760368985925987794_n_5f873773c38c486a8735de9bcd4e900b_1024x1024.jpg",
         ]
     },
-    "gio-cookies" : {
+    "gio-cookies": {
         name: "Giỏ Cookies",
         SKU: "GCK11",
         price: 265,
@@ -278,7 +278,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/z2408540656000_023a1f4214e903c16516cf1aefc2ae37_b763c10cb56740888275ae2a8bfa83f0_compact.jpg",
         ]
     },
-    "gia-dia-3-ngan" : {
+    "gia-dia-3-ngan": {
         name: "Giá đĩa 3 ngăn",
         SKU: "GSD301",
         price: 295,
@@ -314,7 +314,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/ed9783db-b700-4d6f-89ab-770716c52a68_e9aee87b1e694e47b7159a7b2545ebb4_compact.jpg"
         ]
     },
-    "gia-up-bat-black-and-white":{
+    "gia-up-bat-black-and-white": {
         name: "Giá Úp Bát Black and White",
         SKU: "BAW01-1",
         price: 395,
@@ -366,7 +366,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/29ade237-6921-418b-a611-75003a4a2e3d_b8dcd935678f4cb99fc77ebad6de5e34_compact.jpg",
         ]
     },
-    "binh-hoa-nut-luu-ly" : {
+    "binh-hoa-nut-luu-ly": {
         name: "Bình Hoa Nứt Lưu Ly",
         SKU: "BHNLL1-1",
         price: 580,
@@ -379,7 +379,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/z3118531687828_703a9d86763ddb6794eab2a5795cdc87_be7f6c7d93fb4b38ab18338d4a5f95c1_compact.jpg",
         ]
     },
-    "bo-am-anh-dao-men-xanh" : {
+    "bo-am-anh-dao-men-xanh": {
         name: "Bộ Ấm Anh Đào Men Xanh",
         SKU: "BADMX1-1",
         price: 650,
@@ -392,7 +392,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/z2277520803533_aae388be2cd330a74eaf524902211f92_6960c72df96949daa4de4c36ddca05c3_compact.jpg",
         ]
     },
-    "bo-am-sen-tui-vai" : {
+    "bo-am-sen-tui-vai": {
         name: "Bộ Ấm Sen (Túi Vải)",
         SKU: "BASTV12",
         price: 980,
@@ -405,7 +405,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/z3110249494441_0b0aec26b61488a35a04f39fc86e044d_429c86af0034474d8e3c1d054091a99b_compact.jpg",
         ]
     },
-    "coc-linh-lan-hong-350ml" : {
+    "coc-linh-lan-hong-350ml": {
         name: "Cốc Linh Lan Hồng (350ml)",
         SKU: "CLLH350",
         price: 435,
@@ -418,7 +418,7 @@ export const productDetail = {
             "https://product.hstatic.net/200000015764/product/z3118532002672_e11888201b4a50fb20763c2eeb2406c4_dca8da98bd23449fa1d8b6872cce270d_compact.jpg",
         ]
     },
-    "khay-mut-chup-thuy-tinh-2-ngan" : {
+    "khay-mut-chup-thuy-tinh-2-ngan": {
         name: "Khay Mứt Chụp Thủy Tinh 2 Ngăn",
         SKU: "CTT2N12",
         price: 450,
@@ -432,51 +432,51 @@ export const productDetail = {
 }
 
 export const blogs = {
-    "a-little-leaf-teams" : [
+    "a-little-leaf-teams": [
         "radio-chuong-lam-bieng-gieo-trong-hanh-phuc-thich-nhat-hanh",
         "tra-huong-thao",
         "huong-thao-rosemary",
         "lam-gia"
     ],
-    "tui-minh-la-ban" : [
+    "tui-minh-la-ban": [
         "be-with-you"
     ]
 }
 
 export const story = {
-    "radio-chuong-lam-bieng-gieo-trong-hanh-phuc-thich-nhat-hanh" : {
+    "radio-chuong-lam-bieng-gieo-trong-hanh-phuc-thich-nhat-hanh": {
         title: "[RADIO] Chương “Làm biếng” | Gieo trồng hạnh phúc - Thích Nhất Hạnh | A Little Leaf",
         author: " Nguyễn Trần Giang",
-        date: "07.10.2020",
+        date: "03.12.2022",
         image: "https://file.hstatic.net/200000015764/article/lam_bieng_754cb42705574971958dcd0f77b5b8a6_1024x1024.png",
         content: "🌿Để Lá Nhỏ Kể Bạn Nghe...\nCó những ngày không muốn làm chi ngoài LÀM BIẾNG!\nA Little Leaf có một Audio riêng dành cho bạn, hãy nghe khi bạn chuẩn bị đi ngủ hoặc nằm thư giãn, đắp mặt nạ hay lúc ngâm đôi bàn chân đã di chuyển cả ngày dài.\nVà rồi bạn sẽ thấy Làm Biếng đâu có xấu đâu, Làm Biếng một chút để yêu thương bản thân nhiều hơn và chuẩn bị cho một ngày mới đến.\nMình để link YouTube và Soundcloud của “Làm Biếng” ngay dưới đây thôi nha.\nYouTube: https://youtu.be/7iRlaqTni1I\nSoundcloud: https://soundcloud.com/.../radio-chuong-lam-bieng-gieo...\n🌿Chúc mọi người có một tối êm ả, hạnh phúc.\n#alittleleaf #withlovealways #audio #youtube\n"
     },
-    "tra-huong-thao" : {
+    "tra-huong-thao": {
         title: "Trà Hương Thảo",
         author: "Nguyễn Bích Ngọc",
-        date: "14.09.2020",
-        image : "https://file.hstatic.net/200000015764/article/thiet_ke_khong_ten_e313fc58a425496294a07820883a75db_1024x1024.png",
+        date: "05.12.2022",
+        image: "https://file.hstatic.net/200000015764/article/thiet_ke_khong_ten_e313fc58a425496294a07820883a75db_1024x1024.png",
         content: "MỘT CỐC TRÀ HƯƠNG THẢO HOÀN HẢO\n_Nguyên liệu: 1 thìa canh lá hương thảo tươi (bỏ cành)\n_Cách làm:\nBỏ lá hương thảo vào một cốc trà (vì lá này rất mỏng nên không cần phải cắt nhỏ nữa)\nĐun sôi một cốc nước rồi để nguội bớt tới 85°C\nRót nước lên trà và để ngâm trong lúc đậy nắp khoảng 3 tới 4 phút. Lọc bỏ lá và thưởng thức\nCông thức này từ một người bạn và đồng nghiệp của tôi, Christophe Bernard. Anh là nhà thảo dược học và tác giả sống ở miền Nam nước Pháp, quê hương của loài hương thảo. Cốc trà hương thảo hoàn hảo này chỉ cần thời gian hãm rất ngắn, để mang lại mùi hương nhưng không phải chất tannin và vị đắng của nó. Điều này khiến vị trà nhẹ hơn và dễ uống hơn.\nViệc dùng nước không nóng hơn 85°C cũng rất quan trọng, nếu không bạn sẽ làm mất một phần hương của nó. Để làm điều này dễ dàng bạn có thể dùng tới nhiệt kế đo và một cái đồng hồ để tính xem mất mấy phút thì nước vừa đun sôi sẽ đạt tới nhiệt độ này. Lần sau khi bạn đun nước, bạn có thể đặt giờ để đếm ngược khoản thời gian này.\nTrích: Năng Lượng Sống Từ Thảo Dược - Rosalee De La Forêt\n"
     },
-    "huong-thao-rosemary" : {
+    "huong-thao-rosemary": {
         title: "Hương Thảo (Rosemary)",
         author: "Nguyễn Bích Ngọc",
-        date: "31.08.2020",
-        image : "https://file.hstatic.net/200000015764/article/118528241_2800322093546380_5663594150538693104_n_55321a8992514f6fa905820f3eb966df_1024x1024.jpg",
+        date: "07.12.2022",
+        image: "https://file.hstatic.net/200000015764/article/118528241_2800322093546380_5663594150538693104_n_55321a8992514f6fa905820f3eb966df_1024x1024.jpg",
         content: "Hương thảo là loại cây bụi thân thảo, thấp bé, có nguồn gốc từ vùng đất rộng lớn Địa Trung Hải. Tại đâu chúng sinh trưởng trong những điều kiện khó khăn và trên lớp đất đá. Hương thảo thuộc họ bạc hà thơm và hương vị dễ chịu của nó đã khơi cảm hứng cho con người qua nhiều thời đại. Ngoài việc là nguyên liệu nấu ăn phổ biến, loại thảo mộc này còn được dùng làm nước hoa.\nTên tiếng Anh thông dụng của nó, Rosemary, đôi khi được nhắc tới có liên quan đến Đức mẹ Đồng trinh Mary. Truyện kể rằng trong chuyến chạy trốn tới Ai Cập của gia đình bà, một bụi hương thảo đã che chắn và bảo vệ cho họ. Khi Mary đặt chiếc áo choàng của bà bên trên bụi rậm, những bông hoa trắng biến thành màu xanh và vì vậy nó trở thành “rose of Mary” (hoa hồng của Mary)\nĐặc điểm dược tính và năng lượng học của Hương Thảo:\n_Bảo vệ da: Chiết xuất hương thảo cũng được chứng minh là có tác dụng tốt đối với các tổn hại do tia UV.\n_Tốt cho sức khỏe tim mạch: Hương thảo có thể được dùng để tăng tuần hoàn máu và giảm viêm nhiễm trong hệ tim mạch.\n_Giảm đau: Chất chống oxy hóa của hương thảo có thể giảm mất cân bằng oxy hóa và viêm nhiễm.\n_Cho trí nhớ: Trong 1 nghiên cứu ngắn hạn, một liều nhỏ 750mg hương thảo khô đã có tác dụng tốt đáng kể trên chức năng nhận thức ở người già.\n_Cho các vấn đề về tiêu hóa: Hương thảo hãm thành trà có thể giảm nhẹ chứng chậm tiêu gây ra ợ hơi, buồn nôn, đau bụng hay chướng khí.\n_Chữa cảm cúm: Trà hương thảo giúp làm ấm người, có cũng có thể dùng như loại thảo dược hỗ trợ để giúp thông phổi và xoang mũi.\n_Chữ rụng tóc: hỗn hợp 2 thìa café tinh dầu hương thảo, 2 thìa café tinh dầu oải hương, 15ml rượu thuốc cayenne và 473ml dầu vừng giúp cải thiện mọc tóc.\n*Lưu ý:\nTrong lúc đang mang thai và cho con bú nên tránh dùng lượng lớn hương thảo.\nHương thảo có thể làm giảm lượng đường trong máu.\nMột tỉ lệ rất nhỏ người bị dị ứng da khi tiếp xúc với hương thảo.\nNguồn: Năng Lượng Sống Từ Thảo Dược - Rosalee De La Forêt \n"
     },
-    "lam-gia" : {
+    "lam-gia": {
         title: "Lam Già",
         author: "Thiên Vân",
-        date: "27.05.2020",
-        image:"https://file.hstatic.net/200000015764/article/100597168_252027369351733_8973853815849615360_n_c528dd32159c4cf2b0cc0e9a4b4af6b5_1024x1024.jpg",
+        date: "10.12.2022",
+        image: "https://file.hstatic.net/200000015764/article/100597168_252027369351733_8973853815849615360_n_c528dd32159c4cf2b0cc0e9a4b4af6b5_1024x1024.jpg",
         content: "Tụi mình hay gọi chị Lam là 'chị đắp ca' vì dạo trước, cửa hàng thiếu người, ca nào trống Lam sẽ làm đắp vào hoặc thay ca cho mấy đứa bận đột xuất (có cả mình đó 😝)\n\nMấy đứa nhỏ tụi mình dường như không thể 'sống sót' ở cửa hàng nếu không gọi Lam ít nhất một cuộc trong ca, có vấn đề gì khó Lam sẽ hướng dẫn tụi mình từng bước một\nLam bảo tụi mình dựa dẫm vào Lam quá, Lam sẽ nghiêm khắc để tụi mình biết tự chủ hơn nhưng mà mình biết là Lam vẫn chẳng yên tâm đâu - lúc nào, đi đâu cũng túc trực điện thoại xem tụi mình có khó khăn gì không để còn giúp.\n\nLam siêu mê bánh tráng, còn khoe mẽ về siêu năng lực là 'chỉ nhìn thôi sẽ biết bánh tráng ngon hay không' 🤷 ( mọi người đừng thắc mắc vì mình cũng không hiểu đâu ạ).\nVậy nên, mỗi lần mình làm chị Lam giận sẽ canh lúc Lam tập trung làm việc, bảo\n- 'Em đi mua bánh tráng nha, nhanh lắm, chị ăn gì không?'\n- '...'\n-' Mua cho chị bịch bánh tráng tỏi.'\n\nVậy đó, Lam sắp tốt nghiệp rồi, tụi em ổn mà nên Lam ôn tập tốt nha, chúc Lam thi thiệt là tốt!\n"
     },
-    "be-with-you" : {
+    "be-with-you": {
         title: "Be With You",
-        author : "Thiên Vân",
-        date: "29.05.2020",
-        image:"https://file.hstatic.net/200000015764/article/be_with_you_club_72afdc6e7c2a45f192c30b285f8e9851_1024x1024.jpg",
+        author: "Thiên Vân",
+        date: "07.02.2023",
+        image: "https://file.hstatic.net/200000015764/article/be_with_you_club_72afdc6e7c2a45f192c30b285f8e9851_1024x1024.jpg",
         content: "A Little Leaf Hà Nội có một bạn hàng xóm xinh xắn cạnh nhà là Be With You.\n\nNghe tên thôi đã thấy yêu rồi nhỉ, như một lời hứa sẽ luôn bên cạnh tụi mình vậy.\n\n\n\nBe With You là một nàng công chúa chính hiệu, thích màu hồng và sưu tập toàn những món nhỏ nhắn, xinh xắn nhưng vô cùng hữu ích.\n\nNhà Be cũng rất dễ thương, luôn trả lời tin nhắn của chúng mình nhanh ơi là nhanh mà vẫn đáng yêu quá chừng.\n\n\n\nRảnh rảnh  bạn hãy ghé chơi với Be With You nha, ngôi nhà màu hồng của bạn ấy yêu lắm đó.\n\nÀ còn nữa, bạn có thể kết bạn với Be qua:\n\n- Instagram: https://www.instagram.com/bewithyouclub/\n\n- Facebook:https://www.facebook.com/bewithyouclub/?ref=br_rs\n"
     }
 }
